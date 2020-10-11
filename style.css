@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(212, 212, 212);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    color: rgb(121, 116, 117);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color: rgb(221, 85, 85);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+header {
+    grid-column: 4/span 4;
+    grid-row: 1;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(121, 116, 117);
+    padding-left: 40px;
+    padding-right: 40px;
+    min-width: 400px;
+    max-width: 700px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(121, 116, 117);
+    position: relative;
+    top: 15px;
+}
+
+header p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    color: rgb(221, 85, 85);
+}
+
+.grey {
+    background-color: rgb(212, 212, 212);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: min-content;
+    gap: 15px 0px;
+}
+
+header h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header h3 {
+    padding-bottom: 30px;
+}
+
+header p {
+    padding-bottom: 30px;
+}
+
+section {
+    grid-column: 4/span 4;
+    grid-row: 2;
+    background-color: white;
+    padding: 50px 70px 50px 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(121, 116, 117);
+    min-width: 400px;
+    max-width: 700px;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(121, 116, 117);
+}
+
+main {
+    grid-column: 4/span 4;
+    grid-row: 3;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(121, 116, 117);
+    min-width: 400px;
+    max-width: 700px;
+}
+
+main img {
+    width: 150px;
+    height: 190px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 0px;
+    margin-right: 15px;
+}
+
+main article {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+article h3 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+main p {
+    text-align: justify;
+}
+
+
+/* 
+Shift-Alt-F -> Format Document
+Ctrl-K-C -> Comment
+Ctrl-K-U -> Uncomment 
+Ctrl-C -> Copier
+Ctrl-X -> Couper
+Ctrl-V -> Coller
+Ctrl-S -> Enregistrer
+Ctrl-Z -> Undo
+Ctrl-A -> Select All
+Ctrl-F -> Search
+F12 -> Development Tools
+*/# tim-berners-lee-
